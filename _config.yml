@@ -1,0 +1,18 @@
+name: caspicasoft
+description: Web developer
+meta_description: "Blog about web development and computer security."
+
+gems: [jekyll-paginate]
+
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+baseurl: /
+excerpt_separator: <!--more-->
+permalink: /blog/:year/:month/:day/:slug
+domain_name: 'https://caspicasoft.com'
+google_analytics: 'UA-69302622-1'
+
+# Details for the RSS feed generator
+url:            'https://caspicasoft.com'
+author:         'caspicasoft'
